@@ -1,0 +1,116 @@
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #081935;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: white;
+  background-color:rgb(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 26px;
+  margin-left: 50px;
+}
+.sidebar .closebtn:hover{
+  background-color: none;
+  border:none;
+  background-color:rgb(0, 0, 0, 0);
+  opacity:50%;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #081935;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.openbtn:hover {
+  background-color:rgb(91, 112, 149 , 1);;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.menu{
+  color:white;
+  position: absolute;
+  top: 1px;
+  left: 70px;
+}
+.cntr{
+}
+.flex{
+  display:flex;
+  width:100%;
+  margin-top: 0;
+  padding: 0;
+  gap: 5px;
+}
+.flex li{
+  list-style:none;
+  color:black;
+  margin-top: 6px;
+}
+h2{
+  color:white;
+  margin-left: 25px;
+  font-size: 25px;
+}
+/*Employee dropdown*/
+.dropdown-content {
+  display: none;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+  padding-left: 40px;
+}
+.dropdown-content a{
+  font-size: 13px;
+  border-left: 1px solid white;
+}
+.show {display: block;}
+
+
+
+
+

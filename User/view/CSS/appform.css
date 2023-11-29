@@ -1,0 +1,222 @@
+
+h1{
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-top: 0;
+  color: black;
+}
+
+.container{
+  top: 40px;
+  position: relative;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.775);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+color: black;
+
+  
+}
+
+input.form-control::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3c3c3c;
+  appearance: none;
+}
+input.form-control{
+  padding: 5px;
+background: rgba(255, 255, 255, 0.33);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-select.custom-select{
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+ 
+  
+}
+.custom-select,option{
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border: 1px solid rgba(255, 255, 255, 0.103);
+
+}
+label.form-label{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1px;
+}
+div.col-sm-9.mb-2,
+div.col-sm-8.mb-2,
+div.col-sm-7.mb-2,
+div.col-sm-6.mb-2,
+div.col-sm-5.mb-2,
+div.col-sm-4.mb-2,
+div.col-sm-3.mb-2,
+div.col-sm-2.mb-2,
+div.col-sm-1.mb-2{
+  margin: 0 0 0 0px;
+  margin: 0;
+}
+div.col-sm-6.mb-2{
+  width: 50px;
+  padding-right: 0;
+}
+div.row.g-2{
+  justify-content: baseline;
+}
+.col-sm-3.mb-1.pe-2{
+  width: 100px;
+  margin-top: 0;
+}
+div.col-sm-8.mb-2{
+  margin-top: 0;
+}
+div.col-sm-3{
+  margin-top: 0;
+  width: 200px;
+}
+.heads{
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+.headsA{
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.collegeFields{
+  display: none;
+}
+.addEdu{
+  position: absolute;
+  left: 100px;
+
+}
+select#contact.contact{
+
+  position: relative;
+  width: fit-content;
+  bottom: 6px;
+  bottom: 65px;
+  left: 70px;
+  border-radius: 5px;
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  padding: 0;
+  border: none;background-color: #bdbcbc8f;
+  
+}
+
+input#contactNumber.form-control.ab{
+  z-index: 2;
+  position: absolute;
+  width: 40px;
+  padding: 5px;
+background: rgba(95, 95, 95, 0.33);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-left: none;
+}
+input#rightPart.form-control.ac{
+ 
+  position: relative;
+  width: 140px;
+  padding: 5px;
+  left: 40px;
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+}
+button#addEducation.addEdu{
+  width: fit-content;
+  font-weight: bold;
+  font-size: small;
+  background-color: #081935;
+  color: white;
+  border: 1px solid rgb(14, 1, 255);
+  border-radius: 5px;
+  position: relative;
+  height: 30px;
+  right: 500px;
+  top: 10px;
+}
+button#addsuffix.addsuff{
+  width: fit-content;
+  font-weight: bold;
+  font-size: small;
+  background-color: #081935;
+  color: white;
+  border: 1px solid rgb(14, 1, 255);
+  border-radius: 5px;
+  padding: 3px;
+  left: 1035px;
+  top:145px;
+  height: 30px;
+}
+
+
+.btn.btn-danger.removeEducation{
+  width: fit-content;
+  font-weight: bold;
+  font-size: small;
+  position: relative;
+  background-color: #081935;
+  color: white;
+  border: 1px solid rgb(14, 1, 255);
+  border-radius: 5px;
+  padding: 3px;
+  top: 15px;
+}
+
+
+
+/*
+.addsuff:hover{
+  background-color: #33496d;
+  color: rgb(255, 255, 255);
+}
+.addsuff:active{
+  background-color: #5a5a5b;
+}
+.addEdu{
+  width: fit-content;
+  position: relative;
+  font-weight: bold;
+  font-size: small;
+  background-color: #081935;
+  color: white;
+  border: 1px solid rgb(14, 1, 255);
+  border-radius: 5px;
+  padding: 3px;
+  left: 1045px;
+  bottom: 210px;
+
+}

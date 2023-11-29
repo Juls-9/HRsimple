@@ -1,0 +1,160 @@
+body{
+    background-color: #89c5fb;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    background-color: 	#89c5fb;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}
+.container h1{
+    color: #ffffff;
+}
+input[type=text],
+input[type=password],input[type=email]
+{
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70%;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: 	#2f7abd;
+}
+
+input[type=submit]{
+    color: white;
+    width: 70%;
+    padding: 10px;
+    background-color: 	#0b5394;
+    border: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+input[type=submit]:hover{
+    opacity: 0.8;
+    color: white;
+}
+@media screen and (width > 650px) {
+    body{
+        background-color: #ffffff;
+        
+    }
+    .form{
+        padding-bottom: 55px;
+    }
+    .container{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: none;
+        width: 40%;
+        padding: 10px;
+        margin-top: 10vh;
+    }
+    input[type=text],
+    input[type=password],input[type=email],input[type=submit]
+    {
+        width: 60%;
+    }
+    .err{
+        width: 50%;
+    }
+    .sccs{
+        width: 50%;
+    }
+    
+}
+
+.container a{
+    text-decoration: none;
+    float: left;
+}
+#a1{
+    color: red;
+}
+::placeholder{
+    color: white;
+}
+.err{
+    background-color: rgba(255, 130, 130, 0.4);
+    padding: 8px;
+    color: rgb(131, 10, 10);
+    display: none;
+    font-size: .9rem;
+    border-radius: 8px;
+}
+@media screen and (width < 650px) {
+    .err{
+        width: 66%;
+    }
+    .sccs{
+        width: 66%;
+    }
+}
+.sccs{
+    background-color: rgba(61, 252, 77, 0.4);
+    padding: 8px;
+    color: rgb(0, 87, 19);
+    display: none;
+    font-size: .9rem;
+    border-radius: 8px;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+       
+}
+.link a{
+    background-color: #0b5394;
+    color: white;
+    width: 26%;
+    padding: 8px;
+}
+.link a:hover{
+    background-color: #2f7abd;
+}
+/*Footer*/
+.foot{
+    height: 15vh;
+    width: 100%;
+    background-color: #2f7abd;
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+}
+
+.smedia{
+    padding-top: 25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+.foot span{
+    color: white;
+    font-size: 12px;
+}
+@media screen and (height < 500px) {
+    .foot{
+        all: unset;
+        display: none;
+    }
+    .smedia{
+        all: unset;
+        display: none;
+    }
+    
+}
+

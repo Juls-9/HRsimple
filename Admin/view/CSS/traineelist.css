@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "head head side"
+        "table table side"
+        "table table side"
+    ;
+}
+div.side.box{
+    background-color: black;
+    width: 100px;
+}
+.head{
+    grid-area:head;
+}
+.table{
+    grid-area: table;
+}
+.side{
+    grid-area: side;
+}
+@media(width < 400px){
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50vh 50vh 50vh;
+        grid-template-areas: 
+          "head"
+          "side"
+          "table"
+        ;
+    }
+}
